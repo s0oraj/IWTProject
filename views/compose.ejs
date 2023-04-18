@@ -1,0 +1,30 @@
+<%-include("partials/header")-%>
+    <h1>Compose Post</h1>
+    <form action="/compose" method="post">
+        <div class="form-group">
+            <label class="mt-10">Title</label>
+            <input class="form-control" type="text" name="postTitle">
+            <label class="mt-15">Images link</label>
+            <input class="form-control" type="link" name="imgLink">
+            <label class="mt-15">Title Introduction</label>
+            <textarea class="form-control" name="postBody" cols="30" rows="3"></textarea>
+            <label class="mt-15">Point 1</label>
+            <input class="form-control" type="text" name="p1">
+            <label class="mt-15">Point 1 Description</label>
+            <textarea class="form-control" name="d1" cols="30" rows="3"></textarea>
+            <label class="mt-15">Point 2</label>
+            <input class="form-control" type="text" name="p2">
+            <label class="mt-15">Point 2 Description</label>
+            <textarea class="form-control" name="d2" cols="30" rows="5"></textarea>
+            <label class="mt-15">Point 3</label>
+            <input class="form-control" type="text" name="p3">
+            <label class="mt-15">Point 3 Description</label>
+            <textarea class="form-control" name="d3" cols="30" rows="3"></textarea>
+            <label class="mt-15">Point 4</label>
+            <input class="form-control" type="text" name="p4">
+            <label class="mt-15">Point 4 Description</label>
+            <textarea class="form-control" name="d4" cols="30" rows="3"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+<%-include("partials/footer")-%>

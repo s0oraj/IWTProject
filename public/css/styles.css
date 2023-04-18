@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.brand {
+  font-weight: 600;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.footer-padding {
+  padding-bottom: 20px;
+}
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
+}
+
+.footer p {
+  padding: 20px;
+}
+
+.home-intro {
+  margin: 30px 10px;
+}
+
+.post-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  min-width: 50%;
+
+  height: auto;
+  margin: 10px;
+  background-color: #ffebeb;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+}
+.card-img-container {
+  padding: 10px;
+}
+
+.Aboutcard-img-container {
+  padding: 20px;
+}
+
+.cardImg {
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px black;
+  overflow: hidden;
+}
+
+.home-post-img {
+  overflow: hidden;
+  height: auto;
+  max-width: 300px;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 5px;
+}
+
+.cardDesc {
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.mt {
+  margin-top: -10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.feedback-form {
+  padding: 3% 0;
+  padding-bottom: 78px;
+}
+
+.form-s-btn {
+  margin-top: 22px;
+}
+
+.group {
+  padding: 10px;
+}
+
+.post {
+  height: auto;
+  width: 100%;
+  background-color: #fdf4f5;
+  margin: 5px;
+  padding: 20px;
+}
+
+.post-heading {
+  font-family: serif;
+  font-size: 45px;
+}
+
+.head-u-1 {
+  height: 4px;
+  margin-top: -8px;
+  background-color: red;
+  border: 0;
+}
+
+.head-u-2 {
+  height: 2px;
+  margin-top: -5px;
+  background-color: rgb(55, 53, 53);
+  border: 0;
+}
+
+.post-img-con {
+  padding: 20px;
+}
+
+.post-img {
+  height: auto;
+  width: 70%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px black;
+}
+
+.p-h-1 {
+  font-style: italic;
+  font-family: "Libre Baskerville";
+  padding-left: 5px;
+}
+.para {
+  font-family: "Dongle";
+  font-size: 30px;
+  line-height: 1;
+  padding-left: 10px;
+}

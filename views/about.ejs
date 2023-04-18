@@ -1,0 +1,26 @@
+<%-include("partials/header")-%>
+<h1>About Us | Our Team Members</h1>
+
+<% team.forEach(function(team){ %>
+    <div class="card">
+        <table>
+            <tr>
+                <td>
+                    <div class="Aboutcard-img-container">
+                        <img class="cardImg" src="<%= team.profile %>">
+                    </div>
+                </td>
+                <td>
+                    <div class="cardDesc">
+                        <h3><%= team.name %></h3>
+                        <p>Brach : <%= team.branch %></p>
+                        <p class="mt">Registration : <%= team.regdNo %></p>
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+<% }) %>
+
+<%-include("partials/footer")-%>

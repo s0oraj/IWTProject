@@ -1,0 +1,31 @@
+<%-include("partials/header")-%>
+<img src="/images/The Future Of.png" width="100%" alt="">
+<p class="home-intro"><%= startingContent %></p>
+<p class="home-intro"><%= content %></p>
+
+<% posts.forEach(function(post){ %>
+    
+        <div class="card" >
+        <table>
+            <tr>
+                <td>
+                    <div class="card-img-container">
+                        <img class="home-post-img" src="<%= post.imgLink %>">
+                    </div>
+                </td>
+                <td>
+                    <div class="cardDesc">
+                        <a class="post-link" href="/posts/<%=post.title%>">
+                            <h1><%= post.title %></h1>
+                        </a>
+                        <p><%= post.content.substring(0, 200)+"..." %>
+                            <a href="/posts/<%=post.title%>">Read More</a>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+<% }) %>
+<%-include("partials/footer")-%>
